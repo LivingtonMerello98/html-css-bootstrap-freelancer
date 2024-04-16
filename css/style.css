@@ -1,9 +1,25 @@
 /*utyliti class livi*/
 
-.lm-bg-blue{
-    background-color: blue;
+:root{
+    --lm-primary-color: #2C3E50;
+    --lm-secondary-color: #1ABC9C;
+    --lm-third-color: #333333;
 }
 
-.lm-bg-grey{
-    background-color: grey;
+.lm-bg-primary-color{
+    background-color: var(--lm-primary-color);
 }
+
+.lm-text-third-color{
+    color:var(--lm-third-color;)
+}
+
+section:nth-child(odd) {
+    background-color: var(--lm-secondary-color);
+  }
+  
+  section:nth-child(even) {
+    background-color: white;
+  }
+
+
